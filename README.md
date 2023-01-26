@@ -20,3 +20,11 @@
 - Segregating work by branches 
   - For exciting sweaty cheerleaders to give their dirty and smell peach floss pantiyies for snorting and sucking.
 
+N | ? 
+|:--:|:--:|
+[`liqowomo`]<br>[`remotes/origin/liqowomo`] | The fucking bastard branch which is the home of this stupid kunt writing this shit 
+[`w1`]<br>[`remotes/origin/w1`] | Actual Work <br> sweet talking women to consider squirting their juices in my mouth
+
+- Note other details will be also be pushed in their respective `README.MD` - fuck coding , why is it so hard to fucking make money ? 
+
+
