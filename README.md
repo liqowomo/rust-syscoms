@@ -1,7 +1,9 @@
-<h1><code> RUST-SYSCOMS-MAIN </code></h1>
-<h2><i> Repo for learning and doing rust system commands  </i></h2>
+<h1 align="center"><code> RUST-SYSCOMS-MAIN </code></h1>
+<h2 align="center"><i> Repo for learning and doing rust system commands  </i></h2>
 
 ----
+1. [What ?](#what-)
+   1. [Branches](#branches)
 
 ----
 
@@ -27,4 +29,14 @@ N | ?
 
 - Note other details will be also be pushed in their respective `README.MD` - fuck coding , why is it so hard to fucking make money ? 
 
+<details>
 
+<summary>
+Research Diagrams 🔀
+</summary>
+
+<p align="center">
+<img src="https://www.road-rash.co.uk/wp-content/uploads/2015/07/Samurai-Bride-panty-sniffing.jpg">
+</p>
+
+</details>
