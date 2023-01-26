@@ -36,3 +36,4 @@ println!("Alert! {}", Paint::new("Yet another.").with_style(alert));
 # To Do 
 
 - [ ] Add banner with color 
+- [ ] Setup GITHUB Actions Pipe line for releases
