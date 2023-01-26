@@ -1,4 +1,7 @@
 #!/bin/bash 
+echo "####### SET ENVIRONMENT FOR RUST AND BREW"
+source "$HOME/.profile"
+source "$HOME/.cargo/env"
 echo "#############Setup Fish#############"
 echo "#############Setup Fish#############"
 echo "#############Setup Fish#############"
