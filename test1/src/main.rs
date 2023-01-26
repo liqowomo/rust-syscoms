@@ -1,3 +1,5 @@
+use std::borrow::Borrow;
+
 /*
 Testing out some system commands with this
 */
@@ -6,6 +8,16 @@ Testing out some system commands with this
 use yansi::{Color, Paint, Style};
 
 fn main() {
+    print!(
+        "{}",
+        Paint::red(
+            "
+Printing Out using YANSI as sub functions"
+        )
+        .bg(Color::Yellow)
+        .italic()
+        .bold()
+    );
     colp();
     Colp_sytle()
 }
@@ -24,10 +36,9 @@ fn colp() {
 
 // Checkuing out the styles
 
-fn Colp_sytle(){
-    
-    // Definins styles as variables here 
-    let Cst = Style::new(Color::Magenta).bold().blink()
-    
+fn Colp_sytle() {
+    // Definins styles as variables here
+    let Cst = Style::new(Color::Magenta).bold().blink();
+
     print!("{}", Cst.paint("Ass and pussy"));
 }
