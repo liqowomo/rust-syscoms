@@ -53,6 +53,9 @@ Running Command : 'exa' without args
             )
         );
         let mut l_exa = Command::new("exa");
-        l_exa.args(["-la", "--icons"]).status().expect("fucking idiot");
+        l_exa
+            .args(["-la", "--icons"])
+            .status()
+            .expect("fucking idiot");
     }
 }

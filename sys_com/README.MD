@@ -4,6 +4,7 @@
 ----
 1. [WTF](#wtf)
    1. [Sources](#sources)
+2. [Syntax](#syntax)
 
 
 ----
@@ -16,4 +17,24 @@
 
 [`https://doc.rust-lang.org/std/process/struct.Command.html`](https://doc.rust-lang.org/std/process/struct.Command.html)
 - From the offciail manual to access system commands 
-- 
+  
+# Syntax 
+
+1. After following the above fucked up texts the following was used for invoking the command and its arguments 
+
+```rs
+.
+.
+
+let mut l_exa = Command::new("exa");
+        l_exa
+            .args(["-la", "--icons"])
+            .status()
+            .expect("fucking idiot");
+.
+.
+
+```
+- this is a nice short hand method of invoking a command and is arguments 
+- Have to find out how to store the output and write files with this method 
+
