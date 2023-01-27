@@ -5,6 +5,7 @@
 1. [WTF](#wtf)
    1. [Sources](#sources)
 2. [Syntax](#syntax)
+   1. [Ouput Pic](#ouput-pic)
 
 
 ----
@@ -38,3 +39,6 @@ let mut l_exa = Command::new("exa");
 - this is a nice short hand method of invoking a command and is arguments 
 - Have to find out how to store the output and write files with this method 
 
+## Ouput Pic 
+
+![](./output/2023-01-27_20-41-01.png)
