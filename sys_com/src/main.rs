@@ -3,7 +3,6 @@ Testing out system commands execution in rust
 */
 // Yansi crate adding paint style color
 #[warn(unused_imports)]
-
 use ::yansi::{Color, Paint, Style};
 
 // this crate is for accessign system commands
@@ -31,13 +30,29 @@ Running system commands in Rust
 // System command test function
 fn sys_co_1() {
     let talk_2 = Style::new(Color::Blue);
-    print!("{}", talk_2.paint("Running Command ----
-    "));
-
-    // Sub functions 
+    print!(
+        "{}",
+        talk_2.paint(
+            "
+Running Command : 'exa' without args
+------------------------------------
+"
+        )
+    );
+    com();
+    // Sub functions
 
     fn com() {
-       print!("hey");
+        let talk_3 = Style::new(Color::Magenta).bold();
+        println!(
+            "{}",
+            talk_3.paint(
+                "
+        /  exa -la   /
+        "
+            )
+        );
+        let mut l_exa = Command::new("exa");
+        l_exa.args(["-la", "--icons"]).status().expect("fucking idiot");
     }
-
 }
