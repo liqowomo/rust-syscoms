@@ -14,3 +14,6 @@
 
 ## Sources 
 
+[`https://doc.rust-lang.org/std/process/struct.Command.html`](https://doc.rust-lang.org/std/process/struct.Command.html)
+- From the offciail manual to access system commands 
+- 

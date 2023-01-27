@@ -6,6 +6,7 @@ Testing out system commands execution in rust
 use ::yansi::{Color, Paint, Style};
 
 // this crate is for accessign system commands
+use std::process::Command;
 
 fn main() {
     colo_1();
@@ -23,4 +24,9 @@ Running system commands in Rust
 ================================"
         )
     );
+}
+
+// System command test function 
+fn sys_co_1() {
+    
 }
