@@ -5,6 +5,8 @@ Testing out system commands execution in rust
 #[warn(unused_imports)]
 use ::yansi::{Color, Paint, Style};
 
+// this crate is for accessign system commands
+
 fn main() {
     colo_1();
 }
